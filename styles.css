@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== Header และ Navigation ========== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>เว็บไซต์ของเรา</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับ</a></li>
+                    <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                    <li><a href="#">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== Hero Section ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h2>
+            <p>สัมผัสประสบการณ์ใหม่ในการท่องเที่ยวในจังหวัดลำปาง</p>
+            <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+        </div>
+    </section>
+
+    <!-- ========== Section Title ========== -->
+    <section class="section-title">
+        <h2>เกี่ยวกับเรา</h2>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section class="about">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p>เว็บไซต์นี้สร้างขึ้นเพื่อให้ข้อมูลเกี่ยวกับสถานที่ท่องเที่ยวในจังหวัดลำปาง</p>
+                    <p>เรามีข้อมูลที่เป็นประโยชน์และที่สำคัญในการช่วยนักท่องเที่ยววางแผนการเดินทางได้อย่างสะดวกและมีประสิทธิภาพ</p>
+                </div>
+                <div class="content-image">
+                    <img src="images/lampang.jpg" alt="สถานที่ท่องเที่ยว">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Attractions Section ========== -->
+    <section class="attractions">
+        <div class="container">
+            <div class="attraction-item">
+                <div class="attraction-image">
+                    <img src="images/attraction1.jpg" alt="สถานที่ท่องเที่ยว 1">
+                </div>
+                <div class="attraction-content">
+                    <h3>สถานที่ท่องเที่ยวที่ 1</h3>
+                    <p>สถานที่ท่องเที่ยวที่ 1 ในลำปางเป็นสถานที่ที่ไม่ควรพลาดในทริปนี้</p>
+                    <a href="#" class="btn-link">ดูเพิ่มเติม</a>
+                </div>
+            </div>
+            <div class="attraction-item reverse">
+                <div class="attraction-image">
+                    <img src="images/attraction2.jpg" alt="สถานที่ท่องเที่ยว 2">
+                </div>
+                <div class="attraction-content">
+                    <h3>สถานที่ท่องเที่ยวที่ 2</h3>
+                    <p>สัมผัสธรรมชาติและวิวทิวทัศน์ที่สวยงามของลำปาง</p>
+                    <a href="#" class="btn-link">ดูเพิ่มเติม</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Contact Form ========== -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h3>ติดต่อเรา</h3>
+                <p>หากคุณมีคำถามหรือต้องการข้อมูลเพิ่มเติม โปรดติดต่อเรา</p>
+                <p>โทรศัพท์: 123-456-789</p>
+                <p>อีเมล์: example@email.com</p>
+            </div>
+            <div class="contact-form">
+                <h3>ฟอร์มติดต่อ</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">ชื่อ</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">อีเมล์</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">ข้อความ</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Footer ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>เกี่ยวกับเรา</h3>
+                <p>เรามุ่งมั่นที่จะมอบประสบการณ์ท่องเที่ยวที่ดีที่สุดสำหรับคุณ</p>
+            </div>
+            <div class="footer-section">
+                <h3>ลิงก์ด่วน</h3>
+                <ul>
+                    <li><a href="#">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับ</a></li>
+                    <li><a href="#">สถานที่ท่องเที่ยว</a></li>
+                    <li><a href="#">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 เว็บไซต์ของเรา</p>
+        </div>
+    </footer>
+
+</body>
+</html>
